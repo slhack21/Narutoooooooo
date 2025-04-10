@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin - IHL Réparation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="firebase.js"></script>
+  <script src="admin.js" defer></script>
+</head>
+<body>
+  <div class="form-container">
+    <form id="adminForm">
+      <h2>Créer une vente</h2>
+      <input type="text" id="titre" placeholder="Titre" required>
+      <textarea id="description" placeholder="Description" required></textarea>
+      <input type="text" id="imageUrl" placeholder="URL de l'image (https://...)" required>
+      <button type="submit">Publier</button>
+    </form>
+    <div id="statusMessage"></div>
+  </div>
+</body>
+</html>

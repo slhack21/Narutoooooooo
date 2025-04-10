@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IHL Réparation</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="firebase.js"></script>
+  <script src="auth.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">IHL Réparation</div>
+    <button class="burger" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <nav id="menuSlide" class="menu">
+    <button class="close" onclick="toggleMenu()">X</button>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="login.html" id="authBtn">Connexion</a></li>
+      <li><a href="signup.html">Inscription</a></li>
+      <li><a href="messages.html">Messagerie</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <h1>Réparez votre téléphone avec expertise</h1>
+      <p>Services rapides et professionnels pour tous vos besoins mobiles.</p>
+    </section>
+  </main>
+</body>
+</html>
